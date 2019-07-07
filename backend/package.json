@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A backend video streaming service API",
+  "main": "server.js",
+  "scripts": {
+    "serve": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmaher9/mstream.git"
+  },
+  "keywords": [
+    "stream",
+    "video",
+    "node",
+    "API",
+    "file"
+  ],
+  "author": "Kieran Maher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmaher9/mstream/issues"
+  },
+  "homepage": "https://github.com/kmaher9/mstream#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-busboy": "0.0.2",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  }
+}
